@@ -9,28 +9,24 @@
 		<header class="main-header">
 
     <a class="logo">
-      <img src="img/logo.png" alt="Логотип Седона">
+      <img src="img/logo-sedona.svg" width="139" height="70" alt="Логотип Седона">
     </a>
     <nav class="main-menu">
       <ul class="navigation-menu">
-        <li>
-          <a href="#">Информация</a>
-        </li>
-        <li>
-          <a href="#">Фото и видео</a>
-        </li>
-        <li>
-          <a href="#">Карта штата</a>
-        </li>
-        <li>
-          <a href="catalog.html">Гостиницы</a>
-        </li>
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и видео</a></li>
+        <li><a href="#">Карта штата</a></li>
+        <li><a href="catalog.html">Гостиницы</a></li>
       </ul>
     </nav>
 
     </header>
 
 <main>
+	
+	<img src="img/background-photo.png" width="1200" height="558" alt="background-photo">
+
+	<h1 class="visually-hidden">Город Седона</h1>
 
 	<section class="advantages">
       <div class="intro">
@@ -47,7 +43,7 @@
 
     <section class="ordering">
     	<p>Поиск гостиницы в седоне</p>
-      <form>
+      <form method="post">
 
         <div class="check-block">
           <label for="check-date">Дата заезда:</label>
@@ -78,7 +74,7 @@
           
         </div>
 
-        <button class="button-search" type="submit">Найти</button>
+        <button class="button-search" type="submit" value="Найти">Найти</button>
 
       </form>
     </section>
@@ -98,7 +94,8 @@
     </section>
 
     <section class="footer-copyright">
-      <span>website by HTML Academy</span>
+      <span>website by</span>
+      <a><img src="img/logo-htmlacademy.svg" width="114" height="40" alt="HTML Academy"></a>
     </section>
 
   </footer>
