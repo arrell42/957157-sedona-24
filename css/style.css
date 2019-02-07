@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "PT Sans", "Tahoma", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ffffff;
+}
+
+p {
+  font-weight: Regular;
+  font-family: "PT Sans", "Tahoma", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+} 
+
+a:visited {
+  color: #766357;
+}
+
+a:hover {
+  color: #81b3d2;
+}
+
+a:active {
+  color: #b2b2b2;
+}
+
+.main-menu {
+  font-weight: bold;
+  line-height: 26px;
+  color: #000000;
+}
+
+li {
+  list-style-type: none;
+}
+
+
