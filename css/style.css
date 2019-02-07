@@ -10,11 +10,6 @@ body {
   background-color: #ffffff;
 }
 
-p {
-  font-weight: Regular;
-  font-family: "PT Sans", "Tahoma", sans-serif;
-}
-
 a {
   text-decoration: none;
   color: #000000;
