@@ -6,38 +6,111 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
+  <div class=wrapper>
   <body>
 
-		<header class="main-header">
+<header class="main-header">
 
-    <a class="logo">
-      <img src="img/logo-sedona.svg" width="139" height="70" alt="Логотип Седона">
-    </a>
+		<div class="main-header-logo">
+			<a class="logo">
+      		<img src="img/logo-sedona.svg" width="140" height="70" alt="Логотип Седона">
+    	</a>
+    </div>
+
     <nav class="main-menu">
-      <ul class="navigation-menu">
-        <li><a href="#">Информация</a></li>
-        <li><a href="#">Фото и видео</a></li>
-        <li><a href="#">Карта штата</a></li>
-        <li><a href="catalog.html">Гостиницы</a></li>
-      </ul>
+     		<ul class="navigation-menu">
+        	<li class="site-navigation-item"><a href="#">Информация</a></li>
+        	<li class="site-navigation-item"><a href="#">Фото и видео</a></li>
+        	<li class="site-navigation-item"><a href="#">Карта штата</a></li>
+        	<li class="site-navigation-item"><a href="catalog.html">Гостиницы</a></li>
+      	</ul>
     </nav>
 
-    </header>
+</header>
 
 <main>
-	<h1 class="visually-hidden">Город Седона</h1>
 
-	<img src="img/background-photo.png" width="1200" height="558" alt="background-photo">
+	<h1 class="visually-hidden">Город Седона</h1>
+	
+	<div class="background-photo">
+		<img src="img/welcome-sedona.jpg" width="1200" height="508" alt="background-photo">
+	</div>
 
 	<section class="advantages">
       <div class="intro">
-        <h2>Седона - небольшой городок в аризоне,<br> заслуживающий большего!</h2>
+        <h2>Седона - небольшой городок в аризоне,<br>заслуживающий большего!</h2>
         <p>Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
       </div>
    </section>
+<!-- Причины ехать -->
+	<section class="reasons">
+          <h2 class="visually-hidden">Причины приехать в Седону</h2>
+          <!-- 1 -->
+          <div class="reasons-box">
+            <div class="reasons-box-cell">
+              <h2 class="reasons-box-cell-title">Настоящий городок</h2>
+              <span class="reasons-box-cell-number">— №1 —</span>
+              <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
+              	<div class="background-photo-town">
+									<img src="" width="" height="" alt="">
+								</div>
+            </div>
+          </div>
+          <!-- 2 -->
+          <div class="reasons-box">
+            <ul class="reasons-box-list">
+              <li class="reasons-box-item">
+              	<img src="img/icon-1.svg" alt="Home">
+                <h2 class="reasons-box-item-title">Жилье</h2>
+                <p class="reasons-box-item-desc">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+              </li>
+              <li class="reasons-box-item">
+              	<img src="img/icon-2.svg" alt="Food">
+                <h2 class="reasons-box-item-title">Еда</h2>
+                <p class="reasons-box-item-desc">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              </li>
+              <li class="reasons-box-item">
+              	<img src="img/icon-3.svg" alt="Gifts">
+                <h2 class="reasons-box-item-title">Сувениры</h2>
+                <p class="reasons-box-item-desc">Не только китайского, но и местного производства!</p>
+              </li>
+            </ul>
+          </div>
+          <!-- 3 -->
+          <div class="reasons-box">
+            <div class="reasons-box-cell">
+              <h2 class="reasons-box-cell-title">Там есть<br> мост дьявола</h2>
+              <span class="reasons-box-cell-number">— №2 —</span>
+              <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+              <div class="background-photo-bridge">
+									<img src="" width="" height="" alt="">
+							</div>
+            </div>
+          </div>
+          <!-- 4 -->
+          <div class="reasons-box">
+            <ul class="reasons-box-list">
+              <li class="reasons-box-item">
+                <h2 class="reasons-box-item-title">Небольная площадь</h2>
+                <span class="reasons-box-item-number">— №3 —</span>
+                <p class="reasons-box-item-desc">Все достопримечательности находятся очень близко</p>
+              </li>
+              <li class="reasons-box-item">
+                <h2 class="reasons-box-item-title">Красивая дорога</h2>
+                <span class="reasons-box-item-number">— №4 —</span>
+                <p class="reasons-box-item-desc">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+              </li>
+              <li class="reasons-box-item">
+                <h2 class="reasons-box-item-title">Мало туристов</h2>
+                <span class="reasons-box-item-number">— №5 —</span>
+                <p class="reasons-box-item-desc">Большинство едет в Гранд Каньон и толпится там</p>
+              </li>
+            </ul>
+          </div>
+        </section>
 
    <section class="search-hotels">
-      <h3>Заинтересовались?</h3>
+      <h2>Заинтересовались?</h2>
       <p>Укажите предполагаемые даты поездки,
       <br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
     </section>
@@ -102,4 +175,5 @@
   	</p>
   </footer>
 </body>
+</div>
 </html>
