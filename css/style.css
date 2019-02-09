@@ -206,6 +206,20 @@ a:active {
 
 /*-- 4 --*/
 
+.reasons-box:nth-of-type(4) {
+  background-color: #eeeeee;
+}
+
+.reasons-box:nth-of-type(4) .reasons-box-item {
+  padding-top: 47px;
+  padding-bottom: 60px;
+}
+
+.reasons-box:nth-of-type(4) .reasons-box-item-number {
+  padding-bottom: 26px;
+  margin: 0;
+}
+
 .reasons-box-item-number {
   display: block;
   margin-bottom: 20px;
