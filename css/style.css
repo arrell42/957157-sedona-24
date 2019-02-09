@@ -303,6 +303,41 @@ form input[type="text"] {
   padding-left: 12px;
 }
 
+
+/* Footer */
+
+.main-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+  padding-bottom: 35px;
+
+  background-color: gray;
+}
+
+.hashtag {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #000000;
+
+  margin-left: 130px;
+}
+
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 150px;
+  margin: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+
+  list-style: none;
+}
+
 .social-button {
   position: relative;
 
@@ -315,4 +350,31 @@ form input[type="text"] {
   background-color: #81b3d2;
 }
 
+.social-button:hover {
+  background-color: #669ec0;
+}
 
+.social-button:active {
+  background-color: #5496bd;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-copyright-logo {
+  margin-right: 7px;
+}
+
+.academy-logo {
+  margin-right: 100px;
+}
+
+.academy-logo:hover path {
+  fill: #81b3d2;
+}
+.academy-logo:active path {
+  fill: #bdbbbc;
+}
