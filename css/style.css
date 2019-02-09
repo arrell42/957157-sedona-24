@@ -14,7 +14,7 @@ body {
 
   font-weight: normal;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 21px;
   font-family: "PT Sans", "Tahoma", sans-serif;
   text-align: center;
   color: #333333;
@@ -123,6 +123,196 @@ a:active {
   text-transform: uppercase;
 }
 
+/* Причины*/
 
+.reasons-box {
+  display: flex;
+}
+
+ /*-- 1, 3 --*/
+
+.reasons-box-cell {
+  width: 400px;
+  padding-top: 45px;
+  padding-right: 45px;
+  padding-bottom: 0;
+  padding-left: 45px;
+
+  color: #ffffff;
+
+  background-color: #81b3d2;
+}
+
+.reasons-box-cell h2 {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0 55px;
+
+  font-size: 21px;
+}
+
+.reasons-box-cell-number {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.reasons-box-cell p {
+  margin: 0;
+  padding: 0;
+}
+
+/*-- 2 --*/
+
+.reasons-box-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.reasons-box-item {
+  width: 400px;
+  padding-right: 48px;
+  padding-left: 48px;
+}
+
+.reasons-box-item-title {
+  margin: 0;
+
+  font-size: 21px;
+  color: #000000;
+}
+
+.reasons-box-item {
+  
+  padding-top: 58px;
+  padding-bottom: 82px;
+}
+
+.reasons-box-item img {
+  padding-bottom: 20px;
+}
+
+.reasons-box-item-title {
+  display: block;
+  padding-bottom: 26px;
+}
+
+.reasons-box-item-desc {
+  display: block;
+  margin: 0;
+}
+
+/*-- 4 --*/
+
+.reasons-box-item-number {
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* Поиск форма */
+
+.search-hotels {
+  padding-top: 50px;
+  background-color: #ffffff;
+}
+
+.search-hotels h2 {
+  margin: 0;
+  margin-bottom: 30px;
+
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.search-hotels p {
+  margin: 0;
+  margin-bottom: 47px;
+  line-height: 24px;
+}
+
+.ordering p {
+  display: block;
+  width: 568px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 26px;
+  color: #ffffff;
+
+  background-color: #766357;
+}
+
+  form {
+  
+  flex-direction: column;
+  width: 568px;
+  margin: 0 auto;
+  padding: 55px;
+
+  font-weight: bold;
+  line-height: 26px;
+  text-align: left;
+
+  background-color: #ffffff;
+  }
+
+.check-block {
+  display: flex;
+
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.departure-block {
+  display: flex;
+
+  margin-bottom: 30px;
+}
+
+.check-block input {
+  padding: 0;
+
+  font: inherit;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.departure-block input {
+  padding: 0;
+
+  font: inherit;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+form input[type="text"] {
+  width: 346px;
+  height: 38px;
+  margin-left: auto;
+  padding-right: 30px;
+  padding-left: 12px;
+}
+
+.social-button {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 48px;
+
+  background-color: #81b3d2;
+}
 
 
