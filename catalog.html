@@ -30,9 +30,82 @@
 
 </header>
 
-    <main>
-    	<h2 class="visually-hidden">Результаты поиска</h2>
+<main>
+
+  <h1 class="visually-hidden">Гостиницы</h1>
+        <section class="filters">
+          <h2 class="visually-hidden">Форма сортировки</h2>
+          <!-- Форма сортировки -->
+          <form class="filters-form" action="https://echo.htmlacademy.ru" method="get">
+            <fieldset class="infrastructure">
+              <legend>Инфраструктура:</legend>
+              <ul class="infrastructure-list">
+                <li class="infrastructure-item">
+                  <input class="visually-hidden" type="checkbox" id="ch-pool" name="pool" checked>
+                  <label for="ch-pool">Бассейн</label>
+                </li>
+                <li class="infrastructure-item">
+                  <input class="visually-hidden" type="checkbox" id="ch-parking" name="parking">
+                  <label for="ch-parking">Парковка</label>
+                </li>
+                <li class="infrastructure-item">
+                  <input class="visually-hidden" type="checkbox" id="ch-wifi" name="wifi">
+                  <label for="ch-wifi">Wi-fi</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="property-type">
+              <legend>Тип жилья:</legend>
+              <ul class="property-type-list">
+                <li class="property-type-item">
+                  <input class="visually-hidden" type="checkbox" id="ch-hotel" name="hotel" checked>
+                  <label for="ch-hotel">Гостиница</label>
+                </li>
+                <li class="property-type-item">
+                  <input class="visually-hidden" type="checkbox" id="ch-motel" name="motel" checked>
+                  <label for="ch-motel">Мотель</label>
+                </li>
+                <li class="property-type-item">
+                  <input class="visually-hidden" type="checkbox" id="ch-apartment" name="apartment" checked>
+                  <label for="ch-apartment">Апартаменты</label>
+                </li>
+              </ul>
+            </fieldset>
+            <div class="filter-range">
+              <div class="filter-range-title">Стоимость в сутки (р):</div>
+              <div class="price-controls">
+                <label class="min-price">от <input type="text" name="min-price" value=" 0"></label>
+                <label class="max-price">до <input type="text" name="max-price" value="3000 "></label>
+              </div>
+              <div class="range-controls">
+                <div class="scale">
+                  <div class="bar"></div>
+                </div>
+                <div class="range-toggle range-toggle-min" tabindex="0"></div>
+                <div class="range-toggle range-toggle-max" tabindex="0"></div>
+              </div>
+              <button class="btn-filter" type="submit">Показать</button>
+            </div>
+          </form>
+        </section>
+
+<!-- Результаты -->
     	<section class="result">
+
+        <h2 class="visually-hidden">Результат поиска</h2>
+          <div class="result-sort">
+            <h3 class="result-sort-find">Найдено: 3</h3>
+            <ul class="result-sort-menu">
+              <li><span>сортировка:</span></li>
+              <li class="result-sort-item result-sort-item-flow"><a href="#">По цене</a></li>
+              <li class="result-sort-item"><a href="#">По типу</a></li>
+              <li class="result-sort-item"><a href="#">По рейтингу</a></li>
+            </ul>
+            <ul class="result-sort-control">
+              <li class="arrow-up" tabindex="0"></li>
+              <li class="arrow-down" tabindex="0"></li>
+            </ul>
+          </div>
 
        <ul class="hotel-catalog">
 
@@ -80,7 +153,7 @@
           <img src="img/villas.jpg" alt="Villas at poco diablo">
         </div>
 
-        <div>
+        <div class="name-hotel">
           <h2><a href="#">Villas at poco diablo</a></h2>
               <span class="info-hotel">Апартаменты</span>
               <span class="price-hotel">От 2000 Р.</span>
