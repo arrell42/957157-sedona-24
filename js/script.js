@@ -1,6 +1,8 @@
 var buttonSearch = document.querySelector(".button-search");
 var searchBlock = document.querySelector(".search-block");
 
+
+
 buttonSearch.addEventListener("click", function (evt) {
   evt.preventDefault();
 
