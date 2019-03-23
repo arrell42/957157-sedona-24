@@ -535,8 +535,13 @@ a:active {
   color: #a9a9a9;
 
   background-color: #f2f2f2;
-  border: none;
+  border: 0px;
   cursor: pointer;
+  outline: none;
+}
+
+.btn-search-item > span {
+  position: relative; top: 0; left: 0;
 }
 
 .btn-search-item:hover,
@@ -561,6 +566,10 @@ a:active {
 
   background-color: #81b3d2;
   border: none;
+}
+
+.btn-search > span {
+  position: relative; top: 0; left: 0;
 }
 
 .btn-search:hover,
